@@ -11,22 +11,15 @@ public class BarreraScript : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
         
-    }
 
     void OnTriggerEnter()
     {
-        Debug.Log("Ingreso detectado");
         anim.SetBool("estaAdentro", true);
     }
 
     void OnTriggerExit()
     {
-        Debug.Log("Salida detectada");
         anim.SetBool("estaAdentro", false);
     }
 }
