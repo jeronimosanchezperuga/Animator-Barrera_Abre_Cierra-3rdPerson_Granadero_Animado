@@ -510,6 +510,7 @@ GameObject:
   - component: {fileID: 5353597609500337431}
   - component: {fileID: 114973220123809068}
   - component: {fileID: 114561631193375080}
+  - component: {fileID: 114212662748607742}
   m_Layer: 0
   m_Name: SoldadoCamina
   m_TagString: Untagged
@@ -673,20 +674,32 @@ MonoBehaviour:
   ShowParameterInspector: 1
   m_SynchronizeParameters:
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: camina
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: retrocede
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: giraIzq
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: giraDer
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
+--- !u!114 &114212662748607742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020367654567608096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30370cdb2a6e9bd4f97b3a3a518a81cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2020367654567608098
 GameObject:
   m_ObjectHideFlags: 0
